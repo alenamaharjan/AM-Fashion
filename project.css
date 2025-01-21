@@ -1,0 +1,216 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'poppins';
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    background-image: url(images/slider.jpg);
+    height:100%;
+    width:100%;
+    overflow-x: hidden;
+    backdrop-filter: blur(5px);
+}
+#header{
+height:100px;
+width: 100%;
+background-color: #3f055e;
+position: fixed;
+}
+#navbar a{
+    color: rgb(35, 35, 193);
+    padding: 10px;
+    text-decoration: none;
+    margin: 45px; 
+}
+#navbar{
+    display:inline-block;
+    background-color: rgb(255, 157, 0);
+   float:left; 
+   text-align: center;
+   height:40px;
+   width: 100%;
+   flex-wrap: wrap;
+   padding: 10px;
+}
+#name{
+    color:rgb(246, 9, 9);
+    font-size: 30px;
+    text-align:center;
+    padding: 200px;
+}
+.contact{
+    padding: 200px;
+    font-size: 20px;
+    text-align: center;
+}
+p2{
+    color: rgb(185, 29, 29);
+}
+#register{
+    padding:150px;
+    height:700px;
+    font-size:50px;
+    width:70%;
+    border: solid black 4px;
+    border-radius: 10%;
+    text-align: center;
+}
+#fname, #lname, #mail, #password, #password1, #submit{
+    margin:10px; 
+}
+#login{
+    height:400px;
+    font-size: 25px;
+    width:40%;
+    padding:150px;
+    border:solid black 4px;
+    border-radius: 10%;
+    text-align: center;
+}
+#username, #password{
+    margin:10px;
+}
+#footer{
+    background-color: rgb(255, 157, 0);
+    text-align: center;
+    height:50px;
+    padding: 10px;
+    color: white;
+}
+/*---------------------------------products-------------------*/
+#text{
+    padding-top:100px;
+    text-align:center;
+    color:maroon;
+    font-family: 'serif';
+    font-size: 100px;
+}
+.first_row{
+    height: 300px;
+    display:flex;
+    margin-top: 20px;
+}
+.first_row img{
+width: 33%;
+border-radius: 10px;
+margin: 5px;
+padding: 10px;
+} 
+.second_row{
+    height: 300px;
+    display: flex;
+}
+.second_row img{
+    width:25%;
+    border-radius: 10px;
+    gap: 10px;
+    margin: 5px;
+    padding:10px;
+    } 
+.third_row{
+    height: 300px;
+    display:flex;
+}
+.third_row img{
+    width:25%;
+    border-radius: 10px;
+    margin: 5px;
+    padding:10px;
+    } 
+/*---------------------------------categories-------------------*/
+#text2{
+    padding-top:90px;
+    text-align:center;
+    color:maroon;
+    font-family: 'serif';
+    font-size: 100px;
+}
+
+.f1_row{
+    height: 300px;
+    margin-top: 20px;
+    display:flex;
+}
+.f1_row img{
+    width:33%;
+    gap: 10px;
+    border-radius: 10px;
+    margin: 5px;
+    padding:10px;
+    } 
+    
+.f2_row{
+    height: 300px;
+    display:flex;
+}
+.f2_row img{
+    width:33%;
+    gap:10px;
+    border-radius: 10px;
+    margin: 5px;
+    padding:10px;
+    } 
+/*---------------------------------project-------------------*/
+.container{
+    margin-top:0px;
+    padding-top:250px;
+}
+#name{
+margin-top:20px;
+padding-top: 100px;
+}
+#intro1{
+    display: inline-block;
+    height: 250px;
+    border-radius: 5%;
+    width:50%;
+    background-color: rgb(107, 107, 207);
+    padding:40px;
+    margin:15px; 
+}
+p3{
+    text-align: center;
+    color: white;
+
+}
+#intro2{
+display: inline-block;
+height: 250px;
+border-radius: 5%;
+width:40%;
+background-color:rgb(160, 144, 174);
+padding:40px;
+margin:15px;
+}
+p4{
+    text-align: center;
+    color: black;
+    font-size: 15px;
+}
+/* Scroll to Hero Section Button */
+#scrollToHero {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color:blue;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    border: none;
+    border-radius: 50%;
+    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    opacity: 0.8;
+    transition: opacity 0.3s, transform 0.3s;
+  }
+  
+  #scrollToHero:hover {
+    opacity: 1;
+    transform: scale(1.1);
+  }
